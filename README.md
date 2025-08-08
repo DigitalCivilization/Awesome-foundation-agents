@@ -827,7 +827,7 @@ We maintain a curated collection of papers exploring the path towards Foundation
 
 - **MetaGPT: Meta programming for multi-agent collaborative framework**, ICLR 2024, [[paper](https://arxiv.org/abs/2308.00352)]
 
-- **Camel: Communicative agents for “mind” exploration of large language model society**, NeurIPS 2023, [[paper](https://arxiv.org/abs/2303.17760)]
+- **Camel: Communicative agents for "mind" exploration of large language model society**, NeurIPS 2023, [[paper](https://arxiv.org/abs/2303.17760)]
 
 - **ChatDev: Communicative Agents for Software Development**, ACL 2024, [[paper](https://arxiv.org/abs/2307.07924)]
 
@@ -1184,7 +1184,7 @@ We maintain a curated collection of papers exploring the path towards Foundation
   
 - **Obliviate: Neutralizing Task-agnostic Backdoors within the Parameter-efficient Fine-tuning Paradigm**, arXiv 2024, [[paper](https://arxiv.org/abs/2409.14119)]
   
-- **Poisoned ChatGPT finds work for idle hands: Exploring developers’ coding practices with insecure suggestions from poisoned AI models**, IEEE S&P 2024, [[paper](https://ieeexplore.ieee.org/document/10432536)
+- **Poisoned ChatGPT finds work for idle hands: Exploring developers' coding practices with insecure suggestions from poisoned AI models**, IEEE S&P 2024, [[paper](https://ieeexplore.ieee.org/document/10432536)
   
 - **Secret Collusion Among Generative AI Agents**, arXiv 2024, [[paper](https://arxiv.org/abs/2402.07510)]
   
@@ -1257,7 +1257,7 @@ We maintain a curated collection of papers exploring the path towards Foundation
   
 - **Quantifying memorization across neural language models**, arXiv 2022, [[paper](https://arxiv.org/abs/2202.07646)]
   
-- **Stealing part of a production language model**, arXiv 2024, [[paper](https://arxiv.org
+- **Stealing part of a production language model**, arXiv 2024, [[paper](https://arxiv.org/abs/2405.05990)]
 
 
 ### Interaction Data Inference
@@ -1482,4 +1482,164 @@ We maintain a curated collection of papers exploring the path towards Foundation
 - **On the risk of misinformation pollution with large language models**, arXiv 2023, [[paper](https://arxiv.org/abs/2305.13661)]
   
 - **Agent Smith: A single image can jailbreak one million multimodal LLM agents exponentially fast**, arXiv 2024, [[paper](https://arxiv.org/abs/2402.08567)]
+
+
+# Personal Portfolio Website
+
+A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript. Features a clean design, smooth animations, and mobile-first approach.
+
+## 🌟 Features
+
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Elements**: Hover effects, scroll animations, and dynamic content
+- **Mobile Navigation**: Hamburger menu for mobile devices
+- **Contact Form**: Functional contact form with validation
+- **Performance Optimized**: Fast loading with optimized assets
+- **Cross-browser Compatible**: Works on all modern browsers
+
+## 🚀 Quick Start
+
+### Option 1: Live Server (Recommended)
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+### Option 2: Python Server
+```bash
+# Start local server
+npm run serve
+```
+
+### Option 3: Direct File Opening
+Simply open `index.html` in your browser.
+
+## 📁 Project Structure
+
+```
+personal-website/
+├── index.html          # Main HTML file
+├── styles.css          # CSS styles
+├── script.js           # JavaScript functionality
+├── package.json        # Project dependencies
+├── README.md          # Project documentation
+└── assets/            # Images and media files
+    ├── profile.jpg
+    ├── about-image.jpg
+    ├── project1.jpg
+    ├── project2.jpg
+    └── project3.jpg
+```
+
+## 🎨 Customization
+
+### Personal Information
+1. **Update HTML Content**: Edit `index.html` to replace placeholder text with your information
+2. **Add Your Images**: Replace images in the `assets/` folder
+3. **Update Links**: Modify social media links and project URLs
+4. **Contact Information**: Update email, phone, and location details
+
+### Styling
+- **Colors**: Modify CSS variables in `styles.css`
+- **Fonts**: Change the Google Fonts import in `index.html`
+- **Layout**: Adjust grid layouts and spacing in CSS
+
+### Functionality
+- **Form Handling**: Integrate with your preferred form service
+- **Analytics**: Add Google Analytics or other tracking
+- **SEO**: Update meta tags for better search engine optimization
+
+## 📱 Sections
+
+1. **Navigation**: Sticky header with smooth scroll navigation
+2. **Hero**: Eye-catching introduction with call-to-action buttons
+3. **About**: Personal story and statistics
+4. **Skills**: Technical skills organized by category
+5. **Projects**: Portfolio showcase with project details
+6. **Contact**: Contact form and social media links
+7. **Footer**: Copyright and additional information
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic markup and modern HTML features
+- **CSS3**: Flexbox, Grid, animations, and responsive design
+- **JavaScript**: DOM manipulation, animations, and interactivity
+- **Font Awesome**: Icons for social media and UI elements
+- **Google Fonts**: Inter font family for typography
+
+## 📊 Performance Features
+
+- **Lazy Loading**: Images load as they come into view
+- **Optimized Animations**: Hardware-accelerated CSS transforms
+- **Compressed Assets**: Minified CSS and optimized images
+- **Fallback Images**: Placeholder images for missing assets
+
+## 🔧 Development Scripts
+
+```bash
+# Start development server
+npm run dev
+
+# Format code
+npm run format
+
+# Lint JavaScript
+npm run lint
+
+# Validate HTML
+npm run validate
+```
+
+## 🌐 Deployment
+
+### GitHub Pages
+1. Push your code to a GitHub repository
+2. Go to repository Settings > Pages
+3. Select source branch (usually `main`)
+4. Your site will be available at `https://yourusername.github.io/repository-name`
+
+### Netlify
+1. Connect your GitHub repository to Netlify
+2. Deploy automatically on every push
+3. Custom domain support available
+
+### Vercel
+1. Import your GitHub repository
+2. Deploy with zero configuration
+3. Automatic HTTPS and global CDN
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+If you have any questions or need help customizing the website, feel free to:
+- Open an issue on GitHub
+- Contact me at your.email@example.com
+- Connect with me on [LinkedIn](https://linkedin.com/in/yourprofile)
+
+## 🎯 Future Enhancements
+
+- [ ] Dark mode toggle
+- [ ] Blog section
+- [ ] Project filtering
+- [ ] Animation improvements
+- [ ] PWA features
+- [ ] Multi-language support
+
+---
+
+⭐ If you found this helpful, please give it a star on GitHub!
 
